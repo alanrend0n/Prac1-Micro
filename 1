@@ -1,0 +1,74 @@
+\documentclass[a4paper,10pt]{article} 
+\input{Config_files/config.tex} 
+\pagestyle{empty}
+\begin{document} 
+
+\AddToShipoutPicture{\BackgroundPic}
+
+\begin{center}
+
+\includegraphics[width=0.9\linewidth]{Config_files/imagotipo.png}
+\Huge
+\textbf{Report \#1: Dado Digital}\\
+\vspace{0.5cm}
+\huge 
+Alan Rendon D.
+\color{black}
+\end{center}
+
+\begingroup
+\LARGE
+\noindent\textbf{Department:} Ingeniería Cibernética y Sistemas Computacionales\\
+\textbf{Course:} Laboratorio de microcontroladores \\
+\textbf{Instructor:} Benito Granados-Rojas, MSc.\\
+\textbf{Date:} \today
+
+\endgroup
+
+%-------------------------
+
+\Large
+\section*{Abstract}
+\color{black} La práctica consistía en simular un dado digital utilizando Proteus y MPLAB, utilizando el microcontrolador PIC16F628A. Nuestro objetivo era realizar un circuito con un display que mostrara números decimales enteros únicamente en el intervalo cerrado (1,6) y con el microcontrolador debía  contar con una entrada operada por botón, la cuenta regresiva debe ocurrir únicamente mientras se mantiene pulsado el botón y al liberar el botón, la cuenta debe detenerse en el dígito que está presente en el puerto en ese momento.
+
+\newpage
+\color{black}
+\section{Introduction}
+\color{black} Usaremos el microcontrolador PIC16F628A de la familia PIC creado por Microchip Technology Inc. Los PIC son una familia de microcontroladores tipo RISC y derivados del PIC1650, originalmente desarrollado por la división de microelectrónica de General Instrument. Un PIC es un circuito integrado programable (Programmable Integrated Circuited), el cual contiene todos los componentes para poder realizar y controlar una tarea, por lo que se denomina un microcontrolador. Utilizando un convertidor BCD a 7SEG y un display LED de 7 Segmentos \\
+\\
+Usaremos Proteus, en donde montaremos nuestro circuito. Proteus es un software de automatización de diseño electrónico, desarrollado por Labcenter Electronics Ltd., que consta de los dos programas principales: Ares e Isis, y los módulos VSM y Electra. En donde montaremos nuestro circuito. \\
+\\
+Después cargaremos un código realizado en MPLAB. MPLAB es un editor IDE gratuito, destinado a productos de la marca Microchip. Este editor es modular, permite seleccionar los distintos microcontroladores soportados, además de permitir la grabación de estos circuitos integrados directamente al programador. Este codigo se hizo con el lenguaje ensamblador o assembly (en inglés: assembly language y la abreviación asm) es un lenguaje de programación de bajo nivel.\\ 
+\\
+Consiste en un conjunto de mnemónicos que representan instrucciones básicas para los computadores, microprocesadores, microcontroladores y otros circuitos integrados programables. Implementa una representación simbólica de los códigos de máquina binarios y otras constantes necesarias para programar una arquitectura de procesador y constituye la representación más directa del código máquina específico para cada arquitectura legible por un programador.
+
+
+
+\newpage
+\section{Procedures and Results}
+    \subsection{Simulación en proteus}
+        \color{black} 
+    \subsection{Simulación en mplab}
+        \color{black}
+
+
+\section{Conclusions}
+\color{black} Tuvimos los resultados que esperábamos, logrando la simulación y con esta pudimos concluir en que la practica nos ayudo a entender como se realiza una simulación, porque al comprender como el circuito y el código trabajan juntos o individualmente. Al trabajar con el lenguaje ensamblador comprendimos sus funciones y también entendimos mejor como es que trabaja el PIC16F628A y sus puertos.
+
+\section{Repository}
+\noindent
+\url{http://wwww.github.com/alanrend0n/Repo}
+\newline
+\url{http://wwww.github.com/User2/Repo}
+\newline
+\url{http://wwww.github.com/User3/Repo}
+
+\section{Bibliography}
+\printbibliography
+\color{black} 
+\\
+[1]https://es.wikipedia.org/wiki/Lenguaje_ensamblador\\
+[2]https://es.wikipedia.org/wiki/MPLAB\\
+[3]https://es.wikipedia.org/wiki/Proteus_Design_Suite\\
+
+\end{document}
